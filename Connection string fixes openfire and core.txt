@@ -1,0 +1,5 @@
+Openfire string:
+
+<serverURL>jdbc:mysql://localhost:3306/openfire?rewriteBatchedStatements=true&amp;characterEncoding=UTF-8&amp;characterSetResults=UTF-8&amp;serverTimezone=UTC&amp;useSSL=false</serverURL> 
+
+Server String: connection-url: jdbc:mysql://localhost:3306/SOAPBOX?serverTimezone=UTC&useSSL=false
