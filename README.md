@@ -114,4 +114,4 @@ persona - > you can edit the characters here, add booster and money points exper
 I used this: https://github.com/berkayylmao/setting-up-sbrw for the tutorial
 and used some parts of theese: https://github.com/SoapboxRaceWorld
 
-All credits and yadayada goes to them.
+All credits goes to them.
