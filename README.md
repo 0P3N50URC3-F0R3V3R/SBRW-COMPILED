@@ -5,11 +5,6 @@ Check the RELASES section ---------->
 
 This server is HIGHLY customisalble throught MYSQL, or with mod tools you can use microtransactions or not... you can customize cars, packs, parts ect... It has mod tools also but not in this pack.
 
-I will provide client too, but you can use the so called "official" SBWR launcher. But you will need to add your own server. (See later in tutorial) In this relase almost everything is working. AFAIK, only the private matches was the only that i was unable to make work, but public matchmaking and single player works.
-
-So you can grab the whole prepacked server from here:
-https://github.com/0P3N50URC3-F0R3V3...ag/NFSW_Server
-
 What is in the package:
 
 - Openjava10 - Requied for running
