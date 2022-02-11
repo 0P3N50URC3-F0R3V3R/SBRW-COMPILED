@@ -103,9 +103,9 @@ you can create a driver buy a car, and login.
 
 You can customize everything... Some standard hints in mysql:
 
-event - > Races and events type, almost half of the mare turned off, you can turn in them if you want
-products - > ALL store items like booster packs, cars carparts ect... pretty self xplanatory... EG: if you want, you can change all currency to simple cash... (CASH - Normal money _NG - Booster money)
-persona - > you can edit the characters here, add booster and money points experience ect ect...
+- event - > Races and events type, almost half of the mare turned off, you can turn in them if you want
+- products - > ALL store items like booster packs, cars carparts ect... pretty self xplanatory... EG: if you want, you can change all currency to simple cash... (CASH - Normal -money _NG - Booster money)
+- persona - > you can edit the characters here, add booster and money points experience ect ect...
 
 I used this: https://github.com/berkayylmao/setting-up-sbrw for the tutorial
 and used some parts of theese: https://github.com/SoapboxRaceWorld
