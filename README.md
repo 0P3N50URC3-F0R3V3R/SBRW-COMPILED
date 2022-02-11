@@ -101,14 +101,10 @@ you can create a driver buy a car, and login.
 14. You will be asked to race thru a sprint race WITHOUT any powerups, do it finish it. After it is finished in freeroam test if powerups are working(EG: Nitro, or such) if it does then you are good... if not; then you need to go back to step 7 modding section.(aslo make sure if the miniweb server is running and port 80 is free)
 
 
-Aaaand thats it. Hope you are ennjoying it, and i have to say that it was a VERY hard thing to do...
-
 You can customize everything... Some standard hints in mysql:
 
 event - > Races and events type, almost half of the mare turned off, you can turn in them if you want
-
 products - > ALL store items like booster packs, cars carparts ect... pretty self xplanatory... EG: if you want, you can change all currency to simple cash... (CASH - Normal money _NG - Booster money)
-
 persona - > you can edit the characters here, add booster and money points experience ect ect...
 
 I used this: https://github.com/berkayylmao/setting-up-sbrw for the tutorial
