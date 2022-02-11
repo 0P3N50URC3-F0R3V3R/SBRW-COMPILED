@@ -2,7 +2,7 @@
 this is the NFSW world (Soapbox Racing) precompiled version, all it needs just a database and openfire setup.
 
 NOTE: There is a portable server too, if you want to use that, all you need to edit the server's IP adresses from 192.168.1.12 to your server's ip address.
-You will need to install redis though. cdn and other stuffs are optional if you are not willing to use your own client.
+You will need to install redis though. cdn and other stuffs are optional if you are not willing to use your own client. Mods are using SHA1 crc check and you ca nedit mods with winrar.
 
 Check the RELASES section ---------->
 
