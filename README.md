@@ -1,6 +1,8 @@
 # SBRW-COMPILED
 this is the NFSW world (Soapbox Racing) precompiled version, all it needs just a database and openfire setup.
 
+NOTE: There is a portable server too, if you want, all you need to edit the server's IP adresses from 192.168.1.12 to your server's ip address.
+
 Check the RELASES section ---------->
 
 This server is HIGHLY customisalble throught MYSQL, or with mod tools you can use microtransactions or not... you can customize cars, packs, parts ect... It has mod tools also but not in this pack.
