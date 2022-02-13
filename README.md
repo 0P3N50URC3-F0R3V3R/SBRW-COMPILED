@@ -87,9 +87,8 @@ So to start the server start : C:\sbrw\start-sbrw.bat
 
 It will start openfire, miniweb server(it needs for the mods) race and freerun server and core for the last.
 
-10. Client. Now. use official client, from here: https://github.com/SoapboxRaceWorld/...eleases/latest
+10. Client. Now. use official client, from here: https://github.com/SoapboxRaceWorld/...eleases/latest OR you can alternately use the provided CDN by replacing htdocs folder with the extracted cdn directory.
 
-OR -soon- i will upload mine in 1:1 (its about 5-6 GB)
 
 Extract and start, select where to download the client and in the launcher add your server by clicking to the + button at the top right and in the next window press add server, and fill out like this and to your_ip_here change to your your server's ip adress and add a custom category(you can name it however you want).
 http://your_ip_here:8080/Engine.svc
