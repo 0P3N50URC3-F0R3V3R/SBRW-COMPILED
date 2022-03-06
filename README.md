@@ -62,22 +62,27 @@ Search the line: OPENFIRE_TOKEN and at the value field change the text to your s
 Change existing values:
 
 Code:
-ENABLE_REDIS false
-PORTAL_DOMAIN [to your server's IP]
-PORTAL_FAILURE_PAGE [to your server's IP]/nfsw-portal-error
-SERVER_ADDRESS http://[to your server's IP]
-UDP_FREEROAM_IP [to your server's IP]
-UDP_FREEROAM_IP [to your server's IP]
-UDP_RACE_IP [to your server's IP]
-XMPP_IP [to your server's IP]
-STARTING_LEVEL_NUMBER 1
+- ENABLE_REDIS false
+- PORTAL_DOMAIN [to your server's IP]
+- PORTAL_FAILURE_PAGE [to your server's IP]/nfsw-portal-error
+- SERVER_ADDRESS http://[to your server's IP]
+- UDP_FREEROAM_IP [to your server's IP]
+- UDP_FREEROAM_IP [to your server's IP]
+- UDP_RACE_IP [to your server's IP]
+- XMPP_IP [to your server's IP]
+- STARTING_LEVEL_NUMBER 1
+
 Now. You need to add theese fields and values manually(this will enable powerups and multiplayer ingame):
 
 Code:
-MODDING_BASE_PATH    http://[to your server's IP]
-MODDING_ENABLED    true
-MODDING_FEATURES    ""
-MODDING_SERVER_ID [your server id] whatever can this be not visible.
+- MODDING_BASE_PATH    http://[to your server's IP]
+- MODDING_ENABLED    true
+- MODDING_FEATURES    ""
+- MODDING_SERVER_ID [your server id] whatever can this be not visible.
+
+RUN THIS SCRIPT IN MYSQL TO FIX GEM COLLECTING EVENT PARTIALLY:
+- CREATE TRIGGER setDate_INSERT BEFORE INSERT ON treasure_hunt FOR EACH ROW SET NEW.thDate = ADDDATE(curdate(), INTERVAL 0 DAY);
+- CREATE TRIGGER setDate_UPDATE BEFORE UPDATE ON treasure_hunt FOR EACH ROW SET NEW.thDate = ADDDATE(curdate(), INTERVAL 0 DAY);
 
 8. Shutdown openfire server in background(close the window)
 
