@@ -114,6 +114,10 @@ You can customize everything... Some standard hints in mysql:
 - products - > ALL store items like booster packs, cars carparts ect... pretty self xplanatory... EG: if you want, you can change all currency to simple cash... (CASH - Normal -money _NG - Booster money)
 - persona - > you can edit the characters here, add booster and money points experience ect ect...
 
+To fix friend system:
+Use the redis for friend system from relases:Needed for the friend system to work.
+(it needed to be running in the background and enable redis in the MYSQL->soapbox->parameters->redis=true )
+
 I used this: https://github.com/berkayylmao/setting-up-sbrw for the tutorial
 and used some parts of theese: https://github.com/SoapboxRaceWorld
 
