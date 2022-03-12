@@ -42,7 +42,10 @@ From: "sbrw\Database\MySQL scripts"
 
 When you are at the database, select mysql and the connection string paste this:
 Code:
+
 jdbc:mysql://localhost:3306/openfire?rewriteBatchedStatements=true&characterEncoding=UTF-8&characterSetResults=UTF-8&serverTimezone=UTC&useSSL=false
+
+
 and below that use user root and password for the mysql. Process thru the openfire installation and log in with admin account(Username admin, password what you will give during the installation)
 
 6. In openfire:
