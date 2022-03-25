@@ -1,5 +1,7 @@
 # SBRW-COMPILED
 this is the NFSW world (Soapbox Racing) precompiled version, all it needs just a database and openfire setup.
+For the lazy who wdo not want to read on to the bottom of this page: Based on this project: https://github.com/SoapboxRaceWorld
+Also there is a link for the VM in the relases description for the precondifured SDK envrionment.
 
 NOTE: There is a portable server too, if you want to use that, all you need to edit the server's IP adresses from 192.168.1.12 to your server's ip address.
 You will need to install redis though. cdn and other stuffs are optional if you are not willing to use your own client. Mods are using SHA1 crc check and you ca nedit mods with winrar.
@@ -122,6 +124,8 @@ Use the redis for friend system from relases:Needed for the friend system to wor
 (it needed to be running in the background and enable redis in the MYSQL->soapbox->parameters->redis=true )
 
 I used this: https://github.com/berkayylmao/setting-up-sbrw for the tutorial
-and used some parts of theese: https://github.com/SoapboxRaceWorld
+and used some parts of theese:
+
+SOURCE CODE: https://github.com/SoapboxRaceWorld
 
 All credits goes to them.
