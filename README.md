@@ -1,6 +1,10 @@
 # SBRW-COMPILED
 this is the NFSW world (Soapbox Racing) precompiled version, all it needs just a database and openfire setup.
-For the lazy who wdo not want to read on to the bottom of this page: Based on this project: https://github.com/SoapboxRaceWorld
+
+
+For the lazy who wdo not want to read on to the bottom of this page this is the original source code: https://github.com/SoapboxRaceWorld
+
+
 Also there is a link for the VM in the relases description for the precondifured SDK envrionment.
 
 NOTE: There is a portable server too, if you want to use that, all you need to edit the server's IP adresses from 192.168.1.12 to your server's ip address.
