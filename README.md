@@ -2,7 +2,7 @@
 this is the NFSW world (Soapbox Racing) precompiled version, all it needs just a database and openfire setup.
 
 
-For the lazy who wdo not want to read on to the bottom of this page this is the original source code: https://github.com/SoapboxRaceWorld
+For the lazy people who do not want to read on to the bottom of this page this is the original source code: https://github.com/SoapboxRaceWorld
 
 
 Also there is a link for the VM in the relases description for the precondifured SDK envrionment.
