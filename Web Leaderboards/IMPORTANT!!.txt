@@ -6,3 +6,5 @@ until it has a valid time and played by a player persona.
 
 This is a very basic stuff with few datas, the goal is that having a webpage side
 of profile, and leaderboards and ranks on the private server.
+
+it requires php7 and mysql8.

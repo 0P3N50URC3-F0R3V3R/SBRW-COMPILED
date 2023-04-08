@@ -1,3 +1,81 @@
+<style>
+/* Testreszabott stílusok */
+
+body {
+  background-color: #f0f8ff; /* világoskék */
+  color: #333; /* sötétszürke */
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+a {
+  color: #006699; /* sötétkék */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+h1, h2, h3 {
+  color: #FFF;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+button, input[type="submit"] {
+  background-color: #008000; /* zöld */
+  border: none;
+  border-radius: 5px;
+  color: #fff; /* fehér */
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+  padding: 10px 15px;
+}
+
+button:hover, input[type="submit"]:hover {
+  background-color: #006400; /* sötétzöld */
+}
+/* táblázatok és cellák saját keretekkel és színekkel */
+table {
+  border-collapse: collapse;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+th, td {
+  border: 3px solid #AAA;
+  padding: 10px;
+  text-align: center;
+}
+
+td {
+	  color: #FFF;
+background: rgb(0,48,255);
+background: radial-gradient(circle, rgba(0,48,255,1) 0%, rgba(67,93,255,1) 100%);
+}
+
+th {
+  background-color: #eee;
+}
+
+/* táblázat alatti árnyék */
+table {
+  box-shadow: 0px 3px 25px rgba(0, 0, 0, 1.2);
+}
+
+/* oldal háttér */
+body {
+background: rgb(2,0,36) fixed;
+background: linear-gradient(328deg, rgba(2,0,36,1) 0%, rgba(20,20,232,1) 21%, rgba(7,142,247,1) 77%, rgba(0,212,255,1) 100%);
+background-attachment: fixed;
+}
+
+
+</style>
 <?php
 
 error_reporting(E_ALL);
@@ -48,7 +126,8 @@ GROUP BY persona.id
 ORDER BY costtostate DESC
 LIMIT 30;";
         $result2 = mysqli_query($conn, $sql2);
-        echo "<h2>$eventName</h2>";
+		echo "<div style='max-width: 1280px; min-height:150px; margin-left:auto; margin-right:auto;'>";
+        echo "<h2><center>$eventName</center></h2>";
         echo "<table>";
         echo "<thead><tr><th>Rank</th><th>Driver</th><th>Elapsed Time</th>
               <th>Busted Count</th><th>Cops Deployed</th><th>Cops Disabled</th>
@@ -88,6 +167,7 @@ LIMIT 30;";
         }
         echo "</tbody>";
         echo "</table>";
+		echo "</div>";
     }
 } else {
     echo "No events found.";
