@@ -1,0 +1,8 @@
+These are prototype and early access!! Still working on it, not production ready.
+
+Theese leaderboard php files will list only existing records, so if there is a
+map that has no record on it or never played on it anyone, it will be not shown 
+until it has a valid time and played by a player persona.
+
+This is a very basic stuff with few datas, the goal is that having a webpage side
+of profile, and leaderboards and ranks on the private server.
